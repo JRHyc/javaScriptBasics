@@ -27,9 +27,9 @@ function magic_multiply(x, y){
     }
     else
     {
-        x = x * y;    
+        x = x * y;   
     }
-    return x;
+   return x;
 }
 
 let test1 = magic_multiply(5, 2);
