@@ -24,19 +24,19 @@
 // Write a function called is_even(). This function should take a number. 
 // Return true if the input number is even, return false if the number is odd.
 
-// function is_even(num)
-// {
-//     if (num % 2 == 0)
-//     {
-//         // console.log("true");
-//         return true;
-//     }
-//     else
-//     {
-//         // console.log("false");
-//         return false;
-//     }
-// }
+function is_even(num)
+{
+    if (num % 2 == 0)
+    {
+        // console.log("true");
+        return true;
+    }
+    else
+    {
+        // console.log("false");
+        return false;
+    }
+}
 
 // is_even(4);
 
@@ -44,22 +44,22 @@
 // Write a function called how_many_even(). This function should take an array. 
 // Return the total number of elements in the array that are even. 
 // You may call is_even() to solve this.
-// newArr = [2,3,6,8,9];
+newArr = [2,3,6,8,9];
 
-// function how_many_even(arr)
-// {
-//     var count = 0;
-//     for(i = 0; i < arr.length; i++)
-//     {
-//         if (is_even(arr[i]) === true)
-//         {
-//              count += 1;
-//         }
-//     }
-//     console.log(count);
-//     return count;
-// }
-// how_many_even(newArr);
+function how_many_even(arr)
+{
+    var count = 0;
+    for(i = 0; i < arr.length; i++)
+    {
+        if (is_even(arr[i]) === true)
+        {
+             count += 1;
+        }
+    }
+    console.log(count);
+    return count;
+}
+how_many_even(newArr);
 
 // Math 4
 // Write a function called create_dummy_array(). 
